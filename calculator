@@ -1,0 +1,26 @@
+num1 = int(input("Enter number 1:"))          #x is the first input given
+num2 = int(input("Enter number 2:"))          #y is the second input
+
+print("please select option- \n" 
+      "1. Addition \n"
+      "2. Subtract \n"
+      "3. Divide \n"
+      "4. Multiply \n")
+
+operation = int(input("select operation 1,2,3,4 : "))
+
+if operation == 1:
+    add = num1 + num2 
+    print(num1, '+', num2, '=',add)
+elif operation == 2:
+    sub = num1 - num2
+    print(num1, '-', num2, '=',sub)
+elif operation == 3:
+    div = num1/num2
+    print(num1, '/',num2, '=',div)
+elif operation == 4:
+    product = num1*num2
+    print(num1, '*', num2, '=',product)
+else:
+    print("Invalid Operation")
+
